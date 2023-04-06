@@ -1,0 +1,63 @@
+@import url(https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap.min.css);
+.App {
+  padding: 6rem;
+  text-align: center;
+  display: flex;
+  min-height: 100hv;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../public/logo.png);
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 0;
+  
+}
+
+.auth-form-container, .login-form, .register-form {
+  display:flex;
+  flex-direction: column;
+ }
+ 
+@media screen (min-width:640px){
+
+}
+.auth-form-container {
+  padding: 3rem;
+  border: 1.5px solid white;
+  border-radius: 1px;
+  margin:0.1rem;
+  background-color:white;
+  
+}
+
+
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border:none;
+  border-radius: 10px;
+}
+
+button {
+  border:none;
+  background-color: white;
+  padding:20px;
+  border-radius: 10px;
+  cursor:pointer;
+  color:aquamarine;
+}
+
+.link-btn {
+  padding: 10px;
+  background-color: black;
+  color:white;
+  text-decoration: none;
+}
+
